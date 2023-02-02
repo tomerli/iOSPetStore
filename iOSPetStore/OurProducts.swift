@@ -22,11 +22,12 @@ struct OurProducts: View {
                     }
                 }
                 .padding()
+                //Text("Hello, \(username)")
             }
             .navigationTitle(Text("Our Products"))
             .toolbar {
                 NavigationLink {
-                    CartView()
+                    CartView(username: username)
                         .environmentObject(cartManager)
                 } label: {
                     CartButton(numberOfProducts: cartManager.products.count)

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CartView: View {
     @EnvironmentObject var cartManager: CartManager
+    var username: String
+    
     var body: some View {
         ScrollView {
             if cartManager.products.count > 0 {
@@ -17,12 +19,28 @@ struct CartView: View {
                 }
                 
                 HStack {
-                    Text("Your cart total is")
+                    Text("Hello \(username), your cart total is")
                     Spacer()
                     Text("$\(cartManager.total).00")
                         .bold()
                 }
                 .padding()
+                
+                //PaymentButton(action: {})
+                    //.padding()
+                
+                NavigationLink{
+                    Checkout(username: username)
+                }label: {
+                    Text("Proceed to checkout")
+                        .frame(width: 350, height: 45)
+                        .background(.black)
+                        .cornerRadius(5)
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                    
+                }
+                
             }
             else {
                 Text("Your cart is empty")
@@ -36,7 +54,7 @@ struct CartView: View {
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        CartView()
+        CartView(username: "tomer")
             .environmentObject(CartManager())
     }
 }

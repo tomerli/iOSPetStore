@@ -14,6 +14,8 @@
 		E572AB79298ACD5200119C5E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572AB78298ACD5200119C5E /* CartView.swift */; };
 		E572AB7B298ACE5600119C5E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572AB7A298ACE5600119C5E /* CartManager.swift */; };
 		E572AB7D298AD1A100119C5E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572AB7C298AD1A100119C5E /* ProductRow.swift */; };
+		E572AB83298BD0D600119C5E /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572AB82298BD0D600119C5E /* Checkout.swift */; };
+		E572AB87298BE1ED00119C5E /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572AB86298BE1ED00119C5E /* ThankYou.swift */; };
 		E5D6B265297D784100F14D52 /* iOSPetStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D6B264297D784100F14D52 /* iOSPetStoreApp.swift */; };
 		E5D6B267297D784100F14D52 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D6B266297D784100F14D52 /* Login.swift */; };
 		E5D6B269297D784300F14D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D6B268297D784300F14D52 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		E572AB78298ACD5200119C5E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		E572AB7A298ACE5600119C5E /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		E572AB7C298AD1A100119C5E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		E572AB82298BD0D600119C5E /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		E572AB86298BE1ED00119C5E /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
 		E5D6B261297D784100F14D52 /* iOSPetStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPetStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D6B264297D784100F14D52 /* iOSPetStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPetStoreApp.swift; sourceTree = "<group>"; };
 		E5D6B266297D784100F14D52 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				E5D6B266297D784100F14D52 /* Login.swift */,
 				E572AB78298ACD5200119C5E /* CartView.swift */,
 				E572AB7A298ACE5600119C5E /* CartManager.swift */,
+				E572AB82298BD0D600119C5E /* Checkout.swift */,
+				E572AB86298BE1ED00119C5E /* ThankYou.swift */,
 				E572AB71298A86CC00119C5E /* Views */,
 				E572AB6E298A828300119C5E /* Components */,
 				E572AB6B298A68B700119C5E /* Models */,
@@ -191,8 +197,10 @@
 				E572AB79298ACD5200119C5E /* CartView.swift in Sources */,
 				E5D6B275297E92C800F14D52 /* _ProductView.swift in Sources */,
 				E572AB77298A8DB400119C5E /* CartButton.swift in Sources */,
+				E572AB87298BE1ED00119C5E /* ThankYou.swift in Sources */,
 				E5D6B273297D855C00F14D52 /* _Products.swift in Sources */,
 				E572AB6D298A68DC00119C5E /* Product.swift in Sources */,
+				E572AB83298BD0D600119C5E /* Checkout.swift in Sources */,
 				E572AB7B298ACE5600119C5E /* CartManager.swift in Sources */,
 				E572AB75298A888000119C5E /* OurProducts.swift in Sources */,
 				E572AB7D298AD1A100119C5E /* ProductRow.swift in Sources */,
