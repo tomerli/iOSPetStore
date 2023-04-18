@@ -45,6 +45,7 @@ struct ProductCard: View {
                     .background(.black)
                     .cornerRadius(50)
                     .padding(10)
+                    .accessibilityIdentifier(product.name)
             }
         }
     }
