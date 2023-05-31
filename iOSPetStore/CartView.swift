@@ -43,7 +43,7 @@ struct CartView: View {
                 
             }
             else {
-                Text("Your cart is empty...")
+                Text("Your cart is empty.....")
             }
             
         }
